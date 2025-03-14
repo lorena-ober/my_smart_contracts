@@ -19,7 +19,7 @@ contract MessageStorage { //kao klasa u OOP(java npr.)
     }
     /*
     storeMessage - naziv funkcije koja ce spremati poruke - nazivi isto camelCase kao kod Jave
-    (string memory _message) - ulazni parametar funkcije koji oćekuje jedan string (poruku) od korisnika kad on pozove tu funkciju
+    (string memory _message) - ulazni parametar funkcije koji ocekuje jedan string (poruku) od korisnika kad on pozove tu funkciju
         string - tip podatka - poruka
         memory - specifikacija gdje se ta poruka pohranjuje - konkretno to je privremena memorija koja traje samo prilikom izvršavanja funkcije - nakon izvšenja funkcije storeMessage, _message više ne postoji u memoriji, ali postoji u nizu messages[] jer njega čuva blockchain
         _message - naziv samog parametra koji se koristi unutar funkcije
