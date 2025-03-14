@@ -27,9 +27,6 @@ contract MessageStorage { //kao klasa u OOP(java npr.)
     messages.push(_message) - ovo je logika funkcije - ona gura dodanu poruku/element na kraj niza messages
     */
 
-
-
-
     // Funkcija za dohvaćanje svih napisanih poruka
     function getMessages() public view returns (string[] memory){
         return messages;
